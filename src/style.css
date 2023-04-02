@@ -1,7 +1,23 @@
-/* *{
+*{
   margin: 0;
   padding: 0;
 }
+.heading{
+  margin-left: 10px;
+}
 .appArea{
-
-} */
+  width: 30%;
+  display: flex;
+  margin: 30px 0 0 10px;
+  justify-content: space-around;
+}
+.appArea .btn{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+}
+.appArea .output{
+  padding: 20px;
+}
