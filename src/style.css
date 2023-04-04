@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* Counter css part */
 .heading{
   margin-left: 10px;
 }
@@ -20,4 +21,16 @@
 }
 .appArea .output{
   padding: 20px;
+}
+/* Form css part */
+#formHeading{
+  margin-top: 20px;
+}
+.formArea{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  padding: 5px;
 }
